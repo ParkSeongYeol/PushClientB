@@ -33,7 +33,7 @@
             android:name=".PopupActivity"
             android:label="xxx"
             android:launchMode="singleInstance"
-            android:theme="@style/AppTheme" >
+            android:theme="@style/AppTheme.CustomTheme" >
         </activity>
 
         <receiver

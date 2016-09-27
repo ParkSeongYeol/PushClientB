@@ -109,10 +109,10 @@ public class MainActivity extends AppCompatActivity {
 
         btnPhoneNumber.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View V){
-//				Intent popupIntent = new Intent(context, PopupActivity.class)
+//				Intent popupIntent = new Intent(getBaseContext(), PopupActivity.class)
 //						.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 //
-//				this.startActivity(popupIntent);
+//                MainActivity.this.startActivity(popupIntent);
 
 //				setSamsungBadgeCount(onTunePushDefines.sTempCount);
                 onTunePushDefines.sTempCount++;
@@ -182,6 +182,7 @@ public class MainActivity extends AppCompatActivity {
                             }
                         })
                         .show();
+
             }
         });
 
